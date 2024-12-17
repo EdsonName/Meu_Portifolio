@@ -86,7 +86,7 @@ Se você gostaria de discutir sobre algum projeto ou tem interesse em colaborar,
 
 Confira meu currículo em PDF para mais informações sobre minha formação e experiências profissionais:
 
-[Baixar Currículo](https://www.example.com/curriculo.pdf)
+[Visualizar meu Currículo](cv.HTML)
 
 ---
 
