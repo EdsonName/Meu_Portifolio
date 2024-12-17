@@ -4,7 +4,12 @@
     <img src="assets/HEADER/perfil_01.png" alt="Meu Avatar" width="200" style="border-radius: 50%;" />
 </div>
 
-Olá, sou **Edson Name**! Bem-vindo ao meu portfólio. Aqui você pode explorar alguns dos meus projetos e descobrir mais sobre minha trajetória e habilidades.
+<p>Olá, sou <strong>Edson Name</strong>, um entusiasta da tecnologia e inovação, apaixonado por resolver problemas através de soluções criativas e eficientes. Ao longo da minha jornada acadêmica e profissional, venho construindo uma sólida base de conhecimento em **Análise e Desenvolvimento de Sistemas** e **Ciências Contábeis**, com foco no desenvolvimento de software e automação de processos.</p>
+
+<p>Este portfólio é uma representação do meu trabalho e dedicação. Aqui, você encontrará projetos que refletem minha paixão por programação, design de sistemas e análise de dados, sempre com o objetivo de criar soluções impactantes. Ao explorar meus projetos, você poderá conhecer não apenas minhas habilidades técnicas, mas também a forma como penso e abordo desafios complexos.</p>
+
+<p>Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente, e fico entusiasmado com a possibilidade de colaborar com pessoas e equipes inovadoras. Vamos transformar ideias em soluções reais!</p>
+
 
 ---
 
