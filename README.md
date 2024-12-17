@@ -55,11 +55,11 @@
 Sou estudante de **Análise e Desenvolvimento de Sistemas** e **Ciências Contábeis**, apaixonado por tecnologia e inovação. Ao longo da minha jornada, venho desenvolvendo habilidades técnicas em programação, automação e design de sistemas.
 
 ### Habilidades:
-- **Programação**: Python, JavaScript, HTML, CSS
-- **Banco de Dados**: SQLite, MySQL
-- **Frameworks**: Flask, Django (em aprendizado)
-- **Ferramentas**: Git, GitHub, Visual Studio Code, Jupyter Notebook
-- **Design e UI/UX**: Noções de design responsivo e usabilidade
+- **Programação**: Python, JavaScript, HTML, CSS.
+- **Banco de Dados**: SQLite, MySQL. (em aprendizado).
+- **Frameworks**: json, React, Node, Bootstrap e Tailwind (em aprendizado).
+- **Ferramentas**: Git, GitHub e Visual Studio Code. (em aprendizado).
+- **Design e UI/UX**: Noções de design responsivo e usabilidade (em aprendizado).
 
 ---
 
