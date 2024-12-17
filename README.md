@@ -4,11 +4,13 @@
     <img src="assets/HEADER/perfil_01.png" alt="Meu Avatar" width="200" style="border-radius: 50%;" />
 </div>
 
-<p>Olá, sou <strong>Edson Name</strong>, um entusiasta da tecnologia e inovação, apaixonado por resolver problemas através de soluções criativas e eficientes. Ao longo da minha jornada acadêmica e profissional, venho construindo uma sólida base de conhecimento em **Análise e Desenvolvimento de Sistemas** e **Ciências Contábeis**, com foco no desenvolvimento de software e automação de processos.</p>
+<p>Olá, sou <strong>Edson Name</strong>, um estudante apaixonado por **Análise e Desenvolvimento de Sistemas** e **Ciências Contábeis**, com uma grande vontade de aplicar meus conhecimentos para criar soluções inovadoras e práticas. Embora ainda esteja na fase acadêmica da minha jornada, estou determinado a crescer rapidamente e aplicar minha paixão por tecnologia para resolver problemas reais.</p>
 
-<p>Este portfólio é uma representação do meu trabalho e dedicação. Aqui, você encontrará projetos que refletem minha paixão por programação, design de sistemas e análise de dados, sempre com o objetivo de criar soluções impactantes. Ao explorar meus projetos, você poderá conhecer não apenas minhas habilidades técnicas, mas também a forma como penso e abordo desafios complexos.</p>
+<p>Este portfólio é um reflexo do meu esforço constante para aprender, explorar e aprimorar minhas habilidades. Cada projeto que você verá aqui é resultado da minha dedicação em estudar novas tecnologias, aplicar conceitos em situações práticas e buscar a excelência em cada entrega. Mesmo sendo um estudante, busco sempre ir além, aplicando o que aprendo para trazer valor imediato.</p>
 
-<p>Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente, e fico entusiasmado com a possibilidade de colaborar com pessoas e equipes inovadoras. Vamos transformar ideias em soluções reais!</p>
+<p>Estou em busca de oportunidades para colaborar, aprender com profissionais experientes e contribuir com meu entusiasmo, criatividade e vontade de crescer. Se você procura um estudante dedicado, com uma abordagem fresca e inovadora, estou pronto para enfrentar novos desafios e trabalhar junto a você para transformar ideias em soluções concretas.</p>
+
+
 
 
 ---
