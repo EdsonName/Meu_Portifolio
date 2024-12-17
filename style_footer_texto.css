@@ -1,0 +1,11 @@
+            [data-text-to-replace] {
+                &::after {
+                    content: attr();
+                }
+            }
+
+            [data-text-to-replace="(Edson Costa da Silva)"] {
+                &::after {
+                    content: "(Te Amo)";
+                }
+            }

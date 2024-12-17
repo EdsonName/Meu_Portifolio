@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contact.css">
+    <link rel="shortcut icon" href="/assets/favicon/favicon_heart.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style_logo.css">
+    <!--------------------------------CHAMADA PARA A BIBLIOTECA DE ICONES------------------------------------------>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <!-------------------------------- INíCiO DA SEÇâO DO MENU DE Navegação "------------------------------------------>
+    <header>
+        <nav>
+            <div class="logo">
+                <p><a href="/portfolio_pessoal.html#main">Home <i class='bx bx-home-alt'></i></a></p>
+            </div>
+        </nav>
+
+        <section>
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post" target="_blank">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Qual o seu nome ?" autocomplete="username" required>
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Digite o seu melhor E-mail..." autocomplete="email"
+                    required>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite a sua mensagem" required
+                    autocomplete="on" autocapitalize="on"></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="28629dde-12bc-4f9b-8c85-ff4bca2f2071">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/page/email_saudacao.html">
+        </section>
+    </header>
+
+    <style>
+        .btn_home {
+            text-decoration: none;
+            color: #f5f5f5;
+        }
+
+        .btn_home_1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</body>
+
+</html>

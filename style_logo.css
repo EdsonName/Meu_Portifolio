@@ -1,0 +1,16 @@
+
+
+nav .logo
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 80px 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}

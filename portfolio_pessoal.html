@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--CHAMADA PARA A BIBLIOTECA DE ICONES-->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style_footer_texto.css">
+
+    <link rel="shortcut icon" href="/assets/favicon/favicon_[index.ico" type="image/x-icon">
+    <title>Meu Portifólio</title>
+
+</head>
+
+<body>
+    <!-------------------------------- INíCiO DA SEÇâO DO MENU DE Navegação ------------------------------------------>
+    <nav>
+        <div class="logo">
+            <img src="assets\logo\logo_01_hg.png" alt="logo">
+            <a href="/index.html#main" target="_blank">Edson Costa</a>
+        </div>
+        <ul id="navbar" class="navbar">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <!-- Botão que só aparece quando o menu está aberto -->
+            <li id="specialButton" style="display: none;"><a href="#">Botão Especial</a></li>
+        </ul>
+        <button><a href="contato\email.html">Contact Me</a></button>
+        <button id="menuButton"><i class='bx bx-menu'></i></button>
+    </nav>
+    <!-------------------------------------- Botao de "Cookies" ---------------------------------------------------->
+    <script>
+        // Seleciona o ícone do menu, o navbar e o botão especial
+        var menuButton = document.getElementById('menuButton');
+        var navbar = document.getElementById('navbar');
+        var specialButton = document.getElementById('specialButton');
+        // Adiciona um ouvinte de evento de clique ao ícone do menu
+        menuButton.addEventListener('click', function (event) {
+            // Alterna a classe 'open' no navbar
+            navbar.classList.toggle('open');
+            // Impede que o evento de clique se propague
+            event.stopPropagation();
+        });
+        // Adiciona um ouvinte de evento de clique ao navbar
+        navbar.addEventListener('click', function (event) {
+            // Impede que o evento de clique se propague
+            event.stopPropagation();
+        });
+        // Adiciona um ouvinte de evento de clique ao documento
+        document.addEventListener('click', function () {
+            // Remove a classe 'open' do navbar
+            navbar.classList.remove('open');
+            // Oculta o botão especial
+            specialButton.style.display = 'none';
+        });
+    </script>
+    <!------------------------------------- INíCiO DA SEÇâO "MAIN/HEADER"---------------------------------------------->
+    <div class="main" id="main">
+        <div class="left">
+            <h5> Olá, Me chamo Edson Costa da Silva.</h5>
+            <h3>Sou estudante do curso de <span>Análise e Desenvolvimento de Software </span>pela Universidade
+                <abbr id="html" title="A UNIASSELVI, controlada pela Vitru Educação, está presente em todas as regiões do país. Ao completar 25 anos dedicados ao ensino, 
+                    com mais de mil polos e aproximadamente 500 cursos de Graduação (presenciais e a distância), Pós-graduação, Técnicos e Profissionalizantes. 
+                    É hoje a maior instituição de ensino de Santa Catarina e uma das maiores do Brasil.">
+                    <span id="uni">Uniasselvi</span>.
+                </abbr>
+                <!-- Div para o tooltip -->
+                <div id="tooltip" class="tooltip"></div>
+            </h3>
+            <p>O curso de Análise e Desenvolvimento de Software (ADS) estar me proporcionando uma experiência de
+                aprendizado rica e
+                desafiadora.
+            </p>
+            <p>Ao longo deses quatro anos de duração do curso, terei a oportunidade de adquirir conhecimentos
+                teóricos e práticos sobre as
+                diversas áreas do desenvolvimento de software, desde a análise de requisitos até a implantação e
+                manutenção de sistemas.
+            </p>
+            <button><a href="contato\email.html">Entre Em Contato</button></a>
+        </div>
+        <div class="right"></div>
+        <img src="assets\HEADER\perfil_01.png">
+    </div>
+    <!-------------------------------- INICIO DA SEÇAO "HABILIDADES"------------------------------------------>
+    <div class="skills" id="skills">
+        <h5>Minhas Habilidades</h5>
+        <h3>Minhas SoftSkills</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bxs-chess'></i></div>
+                <h4>Pensamento crítico e analítico</h4>
+                <p>
+                    Esta habilidade é essencial em qualquer campo de trabalho. Ela envolve a capacidade de identificar e
+                    definir problemas,
+                    analisar possíveis soluções e tomar decisões eficazes para resolver o problema. Você é capaz de
+                    pensar de forma crítica
+                    e analítica, abordando problemas complexos e desafiadores com uma mentalidade positiva e orientada
+                    para soluções.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxs-user-voice'></i></div>
+                <h4>Excelentes habilidades de comunicação</h4>
+                <p>
+                    A comunicação eficaz é fundamental para o sucesso em muitos aspectos da vida. Suas habilidades de
+                    comunicação são
+                    excelentes, permitindo que você transmita e receba informações de maneira clara e compreensível.
+                    Você é capaz de se
+                    expressar de forma eficaz, tanto verbalmente quanto por escrito, e também é um bom ouvinte, o que é
+                    igualmente
+                    importante na comunicação.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-group'></i></div>
+                <h4>Trabalho em equipe e colaboração.</h4>
+                <p>
+                    Trabalhar bem em equipe é uma habilidade valiosa em muitos ambientes de trabalho. Você entende a
+                    importância de
+                    colaborar com os outros para alcançar objetivos comuns. Você é capaz de compartilhar ideias,
+                    fornecer e receber
+                    feedback, e contribuir para a criação de um ambiente de trabalho positivo e produtivo.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-alarm-exclamation'></i></div>
+                <h4>Gerenciamento de tempo e organização.</h4>
+                <p>
+                    Gerenciar seu tempo de forma eficaz e manter-se organizado são habilidades essenciais para manter a
+                    produtividade e
+                    evitar o estresse. Você é capaz de priorizar tarefas, definir metas e cumprir prazos. Além disso,
+                    você mantém seu
+                    ambiente de trabalho organizado, o que ajuda a aumentar a eficiência e a produtividade.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------- INICIO DA SEÇAO "SOBRE"------------------------------------------>
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img.png">
+        </div>
+        <div class="right">
+            <h5>SOBRE</h5>
+            <h3>Sobre min</h3>
+            <div>
+                <p>
+                    Olá, meu nome é Edson e sou estudante do segundo semestre do curso de Análise e Desenvolvimento de
+                    Software pela
+                    Uniasselvi. Um dos aspectos mais importantes que estou aprendendo durante o curso é a relevância do
+                    trabalho em equipe.
+                    Os projetos desenvolvidos eram sempre realizados em grupos, o que me ajudou a desenvolver
+                    habilidades de comunicação,
+                    colaboração e resolução de problemas.
+                <p>
+                    Além disso, aprendi a importância da organização e do planejamento no desenvolvimento de software.
+                    Os projetos eram
+                    complexos e exigiam um planejamento cuidadoso para serem concluídos com sucesso.
+                </p>
+                <p>
+                    Durante o curso, tive a oportunidade de desenvolver projetos em diversas linguagens de programação,
+                    incluindo Python,
+                    HTML, CSS e JavaScript. Cada linguagem tem suas próprias características e peculiaridades, e aprendi
+                    a utilizá-las de
+                    forma eficaz.
+                </p>
+                <p>
+                    Ademais, desenvolvi habilidades em lógica de programação e algoritmos, que são fundamentais para
+                    resolver problemas de
+                    maneira estruturada e eficiente. Também adquiri conhecimentos em segurança em dispositivos móveis e
+                    web, o que é
+                    essencial para garantir a proteção dos dados e a integridade das aplicações.
+                </p>
+                <p>
+                    Espero que você goste e se inspire com o meu trabalho. Obrigado pela visita!
+                    &#9996;&#65039;&#128512;
+                </p>
+            </div>
+            <br>
+            <hr>
+            <blockquote>
+                <p>"Programar é uma habilidade, uma forma de resolver problemas,
+                    de criar soluções e de transformar ideias em realidade."
+                </p>
+                <cite>-Edson Costa da Silva -</cite>
+            </blockquote>
+        </div>
+    </div>
+    <!-------------------------------- INICIO DA SEÇAO "PORTFOLIO"------------------------------------------>
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Projetos Recentes</h5>
+                <h3>Meu Portfólio</h3>
+            </div>
+            <button><a href="https://www.youtube.com/@edsonhellsing1214" target="_blank"><i
+                        class='bx bxl-youtube'></i></a>Meu canal no Youtube</button>
+        </div>
+        <div class="portfo-item">
+            <div class="item">
+                <img src="assets/sc-1.jpg">
+                <div id="div1" class="info">
+                    <h4>Sistema de Gerenciamento de Estoque</h4>
+                    <p>
+                        Este projeto foi desenvolvido para uma empresa de varejo que precisava de um sistema para
+                        gerenciar seu estoque de
+                        produtos. O sistema foi desenvolvido utilizando a plataforma Microsoft .NET e a linguagem de
+                        programação C#.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank">Visualizar no Youtube <i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sc-2.jpg">
+                <div id="div2" class="info">
+                    <h4>Desenvolvimento de Sites</h4>
+                    <p>
+                        Desenvolvimento de sites responsivos é essencial para desenvolvedores web. Sites responsivos se
+                        adaptam a qualquer
+                        dispositivo, garantindo uma experiência de navegação consistente.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank">Visualizar no Youtube <i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sc-3.jpg">
+                <div id="div3" class="info">
+                    <h4>Calculadora com Interface Gráfica</h4>
+                    <p>
+                        Uma calculadora com interface gráfica em linguagem Python é uma ferramenta útil que pode ser
+                        usada para realizar
+                        cálculos básicos. Ela é desenvolvida usando a biblioteca Tkinter, que fornece uma interface
+                        gráfica de usuário para
+                        Python.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank">Visualizar no Youtube <i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------- INICIO DA SEÇAO "Feedback"------------------------------------------>
+    <div class="feedback" id="feedback">
+        <h5>Avaliação de Clientes</h5>
+        <h3>Feedbacks dos Clientes</h3>
+        <div class="customers">
+            <!----------------------------------------------Usuario 01-------------------------->
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    Gostaria de agradecer ao Edson pelos excelentes serviços prestados. O profissional foi extremamente
+                    atencioso e solicito,
+                    sempre disposto a ajudar e esclarecer minhas dúvidas.
+                </p>
+                <div class="user">
+                    <img src="assets\user_coment_01.png">
+                </div>
+                <div class="info">
+                    <h5> Rodrigo Melo </h5>
+                    <p> Rodrigo Meladao</p>
+                </div>
+            </div>
+            <!----------------------------------------------Usuario 02-------------------------->
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>
+                    Estou muito satisfeito com os serviços prestados pelo Edson e recomendo seus serviços a qualquer
+                    pessoa que esteja
+                    procurando um profissional qualificado e de confiança.
+                </p>
+                <div class="user">
+                    <img src="assets\user_coment_02.png">
+                </div>
+                <div class="info">
+                    <h5> Izabell Duart </h5>
+                    <p> Micro Empreendedora</p>
+                </div>
+            </div>
+            <!----------------------------------------------Usuario 03-------------------------->
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>
+                    O Edson foi capaz de entender minhas necessidades e desenvolver um software personalizado que
+                    atendeu perfeitamente às
+                    minhas expectativas. O software é fácil de usar e intuitivo, e tem me ajudado a melhorar a gestão da
+                    minha empresa.
+                </p>
+                <div class="user">
+                    <img src="assets\user_coment_03.png">
+                </div>
+                <div class="info">
+                    <h5> Sther Martnelly </h5>
+                    <p> Moda Fashion </p>
+                </div>
+            </div>
+            <!----------------------------------------------Usuario 04-------------------------->
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                <p>
+                    O Edson é um profissional altamente qualificado e de confiança. Recomendo seus serviços a qualquer
+                    pessoa que esteja
+                    procurando um profissional de desenvolvimento de software.
+                </p>
+                <div class="user">
+                    <img src="assets\user_coment_04.png">
+                </div>
+                <div class="info">
+                    <h5> Maria de Souza </h5>
+                    <p> Drogaria Santa Rita</p>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------=======------- INICIO DA SEÇAO "Footer"------------------------------------------------------>
+        <footer>
+            <div class="top" id="feedback">
+                <div class="logo">
+                    <img src="assets\logo\logo_01_hg.png">
+                    <a href="https://www.youtube.com/@edsonhellsing1214" target="_blank">Edson Costa da Silva</a>
+                </div>
+                <ul class="links_uteis">
+                    <li><a href="#"><i class='bx bx-home-alt'> Home</i></a></li>
+                    <li><a href="https://gestao365blog.wordpress.com" target="_blank"><i class='bx bxl-wordpress'>
+                                Blog</i></a></li>
+                    <li><a href="https://w.app/sd25aA"><i class='bx bxs-contact'> Contato</i></a></li>
+                    <li><a href="https://www.youtube.com/@edsonhellsing1214"><i class='bx bxl-youtube'> Youtube</i></a>
+                    </li>
+                    <li><a href="https://w.app/sd25aA"><i class='bx bx-copy-alt'> Projetos</i></a></li>
+                    <li><a href="https://github.com/EdsonName" target="_blank"><i class='bx bxl-github'> Github</i></a>
+                    </li>
+                </ul>
+                <!-------------------------------------- INICIO DA SEÇAO DE LINKS DE REDES SOCIAIS-------------------------------------->
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/Data_Bios" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/edson-costa-da-silva-l-3a6a14273" target="_blank"><i
+                            class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="bottom">
+                <!--Cria o elemento <p> com o texto inicial-->
+                <h4>Feito por:<br>Edson Costa da Silva &#128147;</h4>
+                <p id="texto">()</p>
+                <script>
+                    var nomes = ["Edson Costa", "EdsonName", "Grato por sua visita &#128147;", "Nao deixe de visitar as minhas redes sociais &#129149;"]; //Nomes dos desenvolvedores
+                    var indice = 0;
+                    function mudarTexto() {
+                        document.getElementById("texto").innerHTML = "" + nomes[indice] + "";
+                        indice = (indice + 1) % nomes.length;
+                    }
+                    setInterval(mudarTexto, 2000);  // Muda o texto a cada 5 segundos
+                </script>
+                <div class="links">
+                    <a href="page/LGPD.html">LGPD</a>
+                    <a href="page/termos_servicos.html">Termos de serviços</a>
+                    <a href="#" onclick="mostrarPopup()">Uso de Cookies</a>
+                </div>
+                <!------------------------------inicio exibir a mensagem popup 
+                <div id="popup"
+                    style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0, 0,5); z-index: 9999;">
+                    <div
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px; border-radius: 5px;">
+                        <div id="popup">
+                            <span class="fechar" onclick="fecharPopup()">X</span>
+                            <h2>Aviso de Cookies</h2>
+                            <p>Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site.
+                            </p>
+                            <button onclick="fecharPopup()">Aceitar</button>
+                            <button onclick="fecharPopup()">Recusar</button>
+                        </div>
+                    </div>
+                </div>
+                ----------------->
+        </footer>
+        <script src="script.js"></script>
+        <!----------------------------script para chamar janela popup de avise de cookies ----------->
+        <script>
+            function mostrarPopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "block";
+            }
+
+            function fecharPopup() {
+                var popup = document.getElementById("popup");
+                popup.style.display = "none";
+            }
+
+            // Mostrar a janela pop-up assim que a página carregar
+            window.onload = mostrarPopup;
+        </script>
+        <!---------------------------------script para chamar a tag <abbr> --------------------------->
+        <script>
+            // Seleciona o elemento abbr e o tooltip
+            const abbr = document.getElementById('html');
+            const tooltip = document.getElementById('tooltip');
+
+            let originalTitle = ""; // Armazena o título original
+
+            // Mostra o tooltip ao passar o mouse
+            abbr.addEventListener('mouseenter', (event) => {
+                originalTitle = abbr.getAttribute('title'); // Salva o título original
+                abbr.removeAttribute('title'); // Remove o título para evitar tooltip nativo
+
+                const rect = abbr.getBoundingClientRect(); // Posição do elemento
+                tooltip.innerHTML = `
+                <strong>${originalTitle}</strong>
+                <img src="/assets/uniasselvi.jpg" alt="Foto da Universidade Uniasselvi">
+                <img src="/assets/uniasselvi_02.jpg" alt="Foto da Universidade Uniasselvi">
+              `; // Define o conteúdo do tooltip com texto e imagem
+                tooltip.style.display = 'block'; // Mostra o tooltip
+
+                // Calcula a posição dinâmica
+                let top = rect.bottom + window.scrollY + 10; // Abaixo do elemento
+                let left = rect.left + window.scrollX;
+
+                // Ajusta se o tooltip sair da tela
+                if (left + tooltip.offsetWidth > window.innerWidth) {
+                    left = window.innerWidth - tooltip.offsetWidth - 10; // Ajusta para a esquerda
+                }
+                if (top + tooltip.offsetHeight > window.innerHeight) {
+                    top = rect.top + window.scrollY - tooltip.offsetHeight - 0; // Ajusta para cima
+                }
+
+                tooltip.style.top = `${top}px`;
+                tooltip.style.left = `${left}px`;
+            });
+
+            // Esconde o tooltip ao sair do mouse
+            abbr.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none'; // Esconde o tooltip
+                abbr.setAttribute('title', originalTitle); // Restaura o título original
+            });
+        </script>
+</body>
+
+</html

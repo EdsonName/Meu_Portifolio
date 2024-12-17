@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------CHAMADA PARA A BIBLIOTECA DE ICONES------------------------------------------>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style_footer_texto.css">
+
+    <link rel="shortcut icon" href="/assets/favicon/favicon_[index.ico" type="image/x-icon">
+    <title>Termos de Serviço</title>
+
+</head>
+
+<body>
+
+    <!-------------------------------- INíCiO DA SEÇâO DO MENU DE Navegação "------------------------------------------>
+    <nav>
+        <div class="logo">
+            <img src="/assets/logo/logo_01_lw.png" alt="logo">
+            <a href="/index.html#main" target="_blank">Edson Costa</a>
+        </div>
+        <ul id="navbar" class="navbar">
+            <li><a href="/index.html#main">Home</a></li>
+            <li><a href="/index.html#skills">Skills</a></li>
+            <li><a href="/index.html#about">Sobre Mim</a></li>
+            <li><a href="/index.html#portfolio">Portfolio</a></li>
+            <li><a href="/index.html#feedback">Feedback</a></li>
+            <!-- Botão que só aparece quando o menu está aberto -->
+            <li id="specialButton" style="display: none;"><a href="#">Botão Especial</a></li>
+        </ul>
+        <button><a href="contato\email.html">Contact Me</a></button>
+        <button id="menuButton">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+
+    <script>
+
+        // Seleciona o ícone do menu, o navbar e o botão especial
+        var menuButton = document.getElementById('menuButton');
+        var navbar = document.getElementById('navbar');
+        var specialButton = document.getElementById('specialButton');
+
+        // Adiciona um ouvinte de evento de clique ao ícone do menu
+        menuButton.addEventListener('click', function (event) {
+            // Alterna a classe 'open' no navbar
+            navbar.classList.toggle('open');
+
+            // Impede que o evento de clique se propague
+            event.stopPropagation();
+        });
+
+        // Adiciona um ouvinte de evento de clique ao navbar
+        navbar.addEventListener('click', function (event) {
+            // Impede que o evento de clique se propague
+            event.stopPropagation();
+        });
+
+        // Adiciona um ouvinte de evento de clique ao documento
+        document.addEventListener('click', function () {
+            // Remove a classe 'open' do navbar
+            navbar.classList.remove('open');
+
+            // Oculta o botão especial
+            specialButton.style.display = 'none';
+        });
+    </script>
+        <!-------------------------------- FIM DA SEÇâO DO MENU DE Navegação "------------------------------------------>
+
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #444;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+p, ul {
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #666;
+    margin-left: 30px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+button {
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+    </style>
+
+
+    <h1 class="h1">Termos de Serviço</h1>
+
+    <h2>1. Introdução</h2>
+    <p>Ao usar o nosso site, você aceita estes termos de serviço em sua totalidade; caso contrário, você deve parar de
+        usar o nosso site.</p>
+
+    <h2 class="h2">2. Direitos de Propriedade Intelectual</h2>
+    <p>Nós somos os proprietários de todos os direitos de propriedade intelectual em nosso site, e no material publicado
+        nele. Essas obras são protegidas por <abbr title="LEI Nº 9.279, DE 14 DE MAIO DE 1996">leis de direitos autorais</abbr> em todo o mundo. Todos esses direitos estão
+        reservados.</p>
+
+    <h2>3. Uso do Site</h2>
+    <p class="p">Você pode visualizar, baixar para fins de armazenamento em <span data-tooltip="O cache é uma tecnologia usada para armazenar uma cópia de um conjunto de dados em um local de acesso rápido.">cache</span> e imprimir páginas do site, desde que:</p>
+    <ul class="ul">
+        <li>Você não republique material deste site (incluindo republicação em outro site), ou reproduza ou armazene
+            material deste site em qualquer sistema de recuperação eletrônico público ou privado.</li>
+        <li>Você não reproduza, duplique, copie ou explore material em nosso site para fins comerciais sem o nosso
+            consentimento expresso por escrito.</li>
+    </ul>
+
+    <h2>4. Limitações de Responsabilidade</h2>
+    <p>O material exibido em nosso site é fornecido sem quaisquer garantias, condições ou garantias quanto à sua
+        precisão. Na medida permitida por lei, nós e terceiros conectados a nós excluímos expressamente.</p>
+
+    <h2>5. Lei e Jurisdição</h2>
+    <p>Estes termos de uso serão regidos e interpretados de acordo com as <abbr title="LEI Nº 9.279, DE 14 DE MAIO DE 1996">do Brasil</abbr>, e qualquer disputa relacionada
+        a estes termos de uso estará sujeita à jurisdição exclusiva dos tribunais do Brasil.</p>
+
+    <p>Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato <a href="/contato/email.html">conosco.</a></p>
+    
+
+    <!--------------------------- INICIO DO SCRIPT para estiliza mensagem sobre a tag span------------------------------------------>
+
+    <style>
+        [data-tooltip] {
+        position: relative;
+        font-weight: bold;
+}
+
+[data-tooltip]:after {
+        display: none;
+        position: absolute;
+        top: -5px;
+        padding: 5px;
+        border-radius: 3px;
+        left: calc(100% + 2px);
+        content: attr(data-tooltip);
+        white-space: nowrap;
+        background-color: #006b697a;
+        color: White;
+}
+
+        [data-tooltip]:hover:after {
+        display: block;
+}
+    </style>
+<!--------------------------- FIM DO SCRIPT para estiliza mensagem sobre a tag span------------------------------------------>
+
+<!------------------------------------------ INICIO DA SEÇAO "Footer"-------------------------------------------------------->
+<footer>
+    <div class="top" id="feedback">
+        <div class="logo">
+            <img src="/assets\logo\logo_01_hg.png">
+            <a href="https://www.youtube.com/@edsonhellsing1214">Edson Costa da Silva</a>
+        </div>
+        <ul class="links_uteis">
+            <li><a href="/index.html#main"><i class='bx bx-home-alt'> Home</i></a></li>
+            <li><a href="https://wordpress.com/home/gestao365blog.wordpress.com"><i class='bx bxl-wordpress'>
+                        Blog</i></a></li>
+            <li><a href="https://w.app/Qkwu58"><i class='bx bxs-contact'> Contato</i></a></li>
+            <li><a href="https://www.youtube.com/@edsonhellsing1214"><i class='bx bxl-youtube'> Youtube</i></a>
+            </li>
+            <li><a href="https://w.app/Qkwu58"><i class='bx bx-copy-alt'> Projetos</i></a></li>
+            <li><a href="https://github.com/EdsonName"><i class='bx bxl-github'> Github</i></a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.facebook.com/EDSONNAME"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/edsonname/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/Data_Bios"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/edson-costa-da-silva-l-3a6a14273"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="bottom">
+
+        <!--Cria o elemento <p> com o texto inicial-->
+        <h4>Feito por &#128147;</h4>
+        <p id="texto">()</p>
+        <script>
+            var nomes = ["Edson Costa", "EdsonName", "Grato por sua visita &#128147;", "Nao deixe de visitar as minhas redes sociais"]; //Nomes dos desenvolvedores
+            var indice = 0;
+
+            function mudarTexto() {
+                document.getElementById("texto").innerHTML = "(" + nomes[indice] + ")";
+                indice = (indice + 1) % nomes.length;
+            }
+
+            setInterval(mudarTexto, 2000);  // Muda o texto a cada 5 segundos
+        </script>
+
+
+        <div class="links">
+            <a href="/page\LGPD.html">LGPD</a>
+            <a href="/page\termos_servicos.html">Termos de serviços</a>
+        </div>
+
+
+
+
+</body>
+
+</html
