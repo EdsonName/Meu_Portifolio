@@ -12,7 +12,7 @@ Olá, sou **Edson Name**! Bem-vindo ao meu portfólio. Aqui você pode explorar 
 
 ### 1. **Calculadora em Python**
    <div align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Calculator_icon.png" alt="Calculadora" width="150" />
+      <img src="assets/sc-3.jpg" alt="Calculadora" width="150" />
    </div>
    - **Descrição**: Uma calculadora simples desenvolvida em Python, onde você pode realizar operações básicas como soma, subtração, multiplicação e divisão.
    - **Tecnologias**: Python
@@ -23,7 +23,7 @@ Olá, sou **Edson Name**! Bem-vindo ao meu portfólio. Aqui você pode explorar 
 
 ### 2. **Sistema de Gerenciamento de Estoque**
    <div align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Stock_Stock_Market_Icon.png" alt="Estoque" width="150" />
+      <img src="assets/sc-1.jpg" alt="Estoque" width="150" />
    </div>
    - **Descrição**: Um sistema de gerenciamento de estoque para empresas, com funcionalidades para adicionar, editar e excluir produtos, além de visualizar o status atual do estoque.
    - **Tecnologias**: Python, SQLite
@@ -34,7 +34,7 @@ Olá, sou **Edson Name**! Bem-vindo ao meu portfólio. Aqui você pode explorar 
 
 ### 3. **Desenvolvimento de Sites**
    <div align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/HTML5_logo_icon.svg" alt="Desenvolvimento Web" width="150" />
+      <img src="assets/sc-2.jpg" alt="Desenvolvimento Web" width="150" />
    </div>
    - **Descrição**: Projetos de sites responsivos criados utilizando HTML, CSS e JavaScript. A experiência do usuário foi central para o design e desenvolvimento.
    - **Tecnologias**: HTML, CSS, JavaScript
@@ -60,10 +60,18 @@ Sou estudante de **Análise e Desenvolvimento de Sistemas** e **Ciências Contá
 
 Se você gostaria de discutir sobre algum projeto ou tem interesse em colaborar, entre em contato comigo!
 
-- **Email**: [seuemail@example.com](mailto:seuemail@example.com)
-- **LinkedIn**: [Meu LinkedIn](https://www.linkedin.com/in/seu-linkedin)
-- **GitHub**: [Meu GitHub](https://github.com/EdsonName)
-- **Twitter**: [@EdsonName](https://twitter.com/EdsonName)
+ <a href="https://www.linkedin.com/in/edson-costa-da-silva-l-3a6a14273/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:edson_hellsing2011@hotmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://wa.me/5561981044986" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a
+    <a href="https://www.instagram.com/gui88silva/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 
 ---
 
