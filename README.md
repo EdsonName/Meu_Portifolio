@@ -1,7 +1,7 @@
 # <div align="center">Meu Portfólio</div>
 
 <div align="center">
-    <img src="https://avatars.githubusercontent.com/u/109207987?v=4" alt="Meu Avatar" width="200" style="border-radius: 50%;" />
+    <img src="assets/HEADER/perfil_01.png" alt="Meu Avatar" width="200" style="border-radius: 50%;" />
 </div>
 
 Olá, sou **Edson Name**! Bem-vindo ao meu portfólio. Aqui você pode explorar alguns dos meus projetos e descobrir mais sobre minha trajetória e habilidades.
